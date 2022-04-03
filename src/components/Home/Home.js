@@ -6,7 +6,7 @@ const Home = () => {
         <div>
             <div className='home-page-style'>
                 <div className='home-page-title'>
-                    <h1 className='title-text'>Your dreams shoe</h1>
+                    <h1 className='title-text'>Your dream shoes</h1>
                     <h5 className='title-description'>This brand is nike we provide top world class shoes.there are many features
                         of this shoes.high quality fiber fabric bonding latest designing also more and more
                         parts are there.we provide 100% users security that you
