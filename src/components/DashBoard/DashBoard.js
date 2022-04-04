@@ -1,9 +1,12 @@
-import React from 'react';
+import Chart from '../Chart/Chart';
+import "./DashBoard.css";
 
 const DashBoard = () => {
+
     return (
         <div>
-            <h2>DashBoard section</h2>
+            <h5 className='title'>Dashboard</h5>
+            <Chart></Chart>
         </div>
     );
 };

@@ -1,0 +1,7 @@
+.chart-style {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
