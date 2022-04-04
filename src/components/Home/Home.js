@@ -4,8 +4,9 @@ import UseProduct from './../Hooks/UseProduct';
 import ProductReview from '../ProductReview/ProductReview';
 
 const Home = () => {
-    //------------Has imported from custom hooks------------
+    //------------Has imported from custom hooks here------------
     const [products, setProducts] = UseProduct();
+    const newProducts = products.slice(0, 3);
     return (
         <div>
             <div className='home-page-style'>
@@ -24,10 +25,10 @@ const Home = () => {
                 </div>
             </div>
             <div className='product-parent-div'>
-                <h3>Customer reviews</h3>
+                <h3 className='all-title'>Customer reviews</h3>
                 <div className='product'>
                     {
-                        products.map(product => <ProductReview key={product.id} product={product}></ProductReview>)
+                        newProducts.map(product => <ProductReview key={product.id} product={product}></ProductReview>)
                     }
                 </div>
             </div>

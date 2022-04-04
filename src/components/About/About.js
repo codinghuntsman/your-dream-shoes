@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <h2>about section</h2>
+            <h3 className='all-title'>about section is empty</h3>
         </div>
     );
 };
