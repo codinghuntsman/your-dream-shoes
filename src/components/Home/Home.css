@@ -1,6 +1,7 @@
 .home-page-style {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 100px;
 }
 
 .title-text {
@@ -30,8 +31,34 @@
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
+    margin-top: 60px;
 }
 
 .btn-style a {
     text-decoration: none;
+}
+
+.product-parent-div {
+    margin-top: 50px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.review-btn button {
+    background-color: #da2f84;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
 }
