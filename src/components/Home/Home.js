@@ -2,8 +2,14 @@ import React from 'react';
 import "./Home.css";
 import UseProduct from './../Hooks/UseProduct';
 import ProductReview from '../ProductReview/ProductReview';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate = useNavigate();
+    const showReviews = () => {
+        const path = "/reviews";
+        navigate(path);
+    }
     //------------Has imported from custom hooks here------------
     const [products, setProducts] = UseProduct();
     const newProducts = products.slice(0, 3);
@@ -33,7 +39,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='review-btn'>
-                <button>See all reviews</button>
+                <button onClick={showReviews}>See all reviews</button>
             </div>
         </div>
     );
