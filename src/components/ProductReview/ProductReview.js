@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ProductReview.css";
+import { AiFillStar } from 'react-icons/ai';
 
 const ProductReview = ({ product }) => {
     const { name, img, review, ratings } = product;
@@ -9,7 +10,7 @@ const ProductReview = ({ product }) => {
             <div className='product-description'>
                 <h6>{name}</h6>
                 <p className='ratings'>Review: <small>{review}</small></p>
-                <p className='ratings'>Ratings: <small>{ratings}</small></p>
+                <p className='ratings'>Ratings: <small className='ratings-icon'> < AiFillStar /> < AiFillStar /> < AiFillStar /> < AiFillStar /> < AiFillStar /> {ratings}</small></p>
             </div>
         </div>
     );

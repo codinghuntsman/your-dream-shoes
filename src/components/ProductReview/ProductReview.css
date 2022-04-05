@@ -4,11 +4,12 @@
     padding: 5px;
     border-radius: 5px;
     display: flex;
+    align-items: center;
 }
 
 .product-review img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -19,6 +20,10 @@
 
 .product-description p {
     margin-bottom: 0;
+}
+
+.ratings-icon {
+    color: goldenrod;
 }
 
 .ratings {
