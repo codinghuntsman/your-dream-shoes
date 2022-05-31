@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 
-
 //-----------This is custom hooks---------------
 const UseProduct = () => {
     const [products, setProducts] = useState([]);
@@ -11,4 +10,5 @@ const UseProduct = () => {
     }, [])
     return [products, setProducts];
 }
+//---Has exported UseProduct function from here----
 export default UseProduct;

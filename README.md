@@ -6,3 +6,5 @@ Four working notes:
 <li>Creating a product reviews page that will show a user review.</li>
 <li>Creating all product review page that will show all product reviews.</li>
 <li>Create blogs page that page contain three questions and answers.</li>
+<li>Create blogs page that page contain three questions and answers.</li>
+<li>Create blogs page that page contain three questions and answers.</li>
